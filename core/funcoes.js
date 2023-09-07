@@ -36,4 +36,10 @@ function boraCasar(){
     div_principal.appendChild(titulo);
 
     
+    this.setTimeout(() => {
+        div_principal.innerText = ''
+    }, 15000);
+    
+
+    
 }
